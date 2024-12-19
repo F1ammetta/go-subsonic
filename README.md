@@ -2,6 +2,8 @@
 
 [![GoDoc](https://godoc.org/github.com/delucks/go-subsonic?status.svg)](https://godoc.org/github.com/delucks/go-subsonic)
 
+## This is a Fork of the original go-subsonic library by [delucks](https://github.com/delucks/go-subsonic) adding support for fetching resource URLs from the server.
+
 This is an API client library for Subsonic and Subsonic-compatible music servers. It is tested on Subsonic, Airsonic, and Navidrome.
 
 # Testing
@@ -78,8 +80,10 @@ If you intend on testing with your own server, modify the top-level TestSubsonic
 ## Media retrieval
 
 - [x] stream (1.0.0)
+- [x] getstreamUrl (1.0.0)
 - [x] download (1.0.0)
 - [x] getCoverArt (1.0.0)
+- [x] getCoverArtUrl (1.0.0)
 - [ ] getLyrics (1.2.0)
 - [x] getAvatar (1.8.0)
 
